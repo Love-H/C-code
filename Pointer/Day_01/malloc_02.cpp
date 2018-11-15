@@ -1,6 +1,6 @@
 /*
 	2018-11-14 15:40:55
-	Ä¿µÄ£º 
+	ç›®çš„ï¼š åŠ¨æ€åˆ†é…
 */
 
 #include <stdio.h>
@@ -13,11 +13,11 @@ void f(int *q)
 
 int main()
 {
-	int * p = (int *)malloc(sizeof(int));  //sizeof(int)·µ»ØÖµÊÇintËùÕ¼µÄ×Ö½ÚÊı 
+	int * p = (int *)malloc(sizeof(int));  //sizeof(int)è¿”å›å€¼æ˜¯intæ‰€å çš„å­—èŠ‚æ•° 
 	*p = 10;
 	
 	printf("%d\n", *p);  // 10
-	f(p);				 // pÊÇint *ÀàĞÍ 
+	f(p);				 // pæ˜¯int *ç±»å‹ 
 	printf("%d\n", *p);  // 200
 	
 	return 0;
